@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class thongtincanhan {
-    System.out.println("Hãy nhập thông tin cá nhân của bạn: ");
+    public static void main(String[] args) {
+        System.out.println("Hãy nhập thông tin cá nhân của bạn: ");
         System.out.print("Nhập họ và tên: ");
         String ten = new Scanner(System.in).nextLine();
         System.out.print("Nhập tuổi: ");
@@ -15,4 +16,5 @@ public class thongtincanhan {
         System.out.println("Tuổi: " +tuoi);
         System.out.println("Chiều cao: " +ccao);
         System.out.println(dan+ " thích học lập trìnhh !");
+    }   
 }
