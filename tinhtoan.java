@@ -15,6 +15,6 @@ public class tinhtoan {
         System.out.println("Họ tên: " +ten);
         System.out.println("Tuổi: " +tuoi);
         System.out.println("Chiều cao: " +ccao);
-        System.out.println(dan+ " thích học lập trình !");
+        System.out.println(dan+ " thích học lập trìnhh !");
     }
 }
