@@ -3,9 +3,6 @@
 import java.util.Scanner;
 
 public class Bai1 {
-    import java.util.Scanner;
-
-    public class Bai1 {
         public static void main(String[] args) {
             System.out.printf("Vui lòng nhập số cần kiểm tra: "); //Nhập số
             int check = new Scanner(System.in).nextInt();
@@ -16,5 +13,4 @@ public class Bai1 {
             else
                 System.out.println("Đây là số 0");
         }
-    }
 }
