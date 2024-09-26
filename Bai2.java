@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Bai2 {
     public static void main(String[] args) {
-        System.out.print("Nhap vao diem trung binh cua mot hoc sinh");
+        System.out.print("Nhap vao diem trung binh cua mot hoc sinh ");
         Scanner sc = new Scanner(System.in);
         Float diem = sc.nextFloat();
         if (diem > 8.0) {
