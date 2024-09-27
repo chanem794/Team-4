@@ -8,9 +8,11 @@ public class Bai2 {
         System.out.print("Nhap vao diem trung binh cua mot hoc sinh ");
         Scanner sc = new Scanner(System.in);
         Float diem = sc.nextFloat();
-        if (diem > 8.0) {
+        if (diem > 8.0 && diem <=10 )
             System.out.println("La hs Gioi");
-        } else {
+        else if (diem > 10.0)
+            System.out.println("khong hop le"); //chỉnh sửa lỗi
+        else {
             if (diem > 6.5) {
                 System.out.println("La hs Kha");
             } else {
@@ -21,7 +23,5 @@ public class Bai2 {
                 }
             }
         }
-        else
-            System.out.println("Số bạn nhập vào không đúng");
     }
 }
