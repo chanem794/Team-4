@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class bai_4 {
+    static Scanner Nhap = new Scanner(System.in);
+    public static void main(String [] args){
+        System.out.println("Nhap vao 3 so can so sánh: ");
+        int a = Nhap.nextInt();
+        int b = Nhap.nextInt();
+        int c = Nhap.nextInt();
+        bai_4.Sosanh(a, b, c);
+    }
+    public static void Sosanh(int a, int b, int c)
+    {
+        int min = (c < ((a<b)? a : b) ? c: ((a<b)? a : b));
+        System.out.println("So nho nhat la: " +min);
+    }
+}
