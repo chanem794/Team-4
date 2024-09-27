@@ -1,3 +1,4 @@
+package Baithuchanhtuan3;
 // 3.	Viết chương trình giải phương trình bậc 2.
 
 import java.util.Scanner;

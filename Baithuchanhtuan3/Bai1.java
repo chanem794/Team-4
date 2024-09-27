@@ -1,3 +1,4 @@
+package Baithuchanhtuan3;
 // 1.	Viết chương trình kiểm tra số âm, dương hoặc bằng 0.
 
 import java.util.Scanner;
