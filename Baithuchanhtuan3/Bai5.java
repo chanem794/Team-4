@@ -19,7 +19,7 @@ public class Bai5 {
             //Kiểm tra đó là tam gì nếu 3 cạnh đó là tam giác
             if (a==b && b==c) // 3 cạnh bằng nhau
                 System.out.println("Day la tam giac deu");
-            else if ((a==b && a != c) || (a==c && a !=b) || (b==c && b!=a))//hai cạnh bằng nhau
+            else if (a==b || a==c || b==c)//hai cạnh bằng nhau
                 System.out.println("Day la tam gia can");
             else if ((a*a == b*b+c*c) || (b*b == a*a+c*c) || (c*c == a*a+b*b)) // bình phương cạnh huyền bằng bình phương hai cạnh góc vuông
                 System.out.println("Day laf tam giac vuong");
