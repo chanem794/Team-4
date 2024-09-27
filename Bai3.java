@@ -17,7 +17,7 @@ public class Bai3 {
         // Tính delta (b^2 - 4ac)
         double delta = b * b - 4 * a * c;
 
-        // Xử lý trường hợp khác nhau của delta
+        // Xử lý trường hợp khác nhau cua delta
         if (delta > 0) {
             // Hai nghiệm phân biệt
             double x1 = (-b + Math.sqrt(delta)) / (2 * a);
