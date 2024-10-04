@@ -41,7 +41,7 @@ public class TaiKhoanNganHang {
         System.out.println("Số dư: " + this.sodu);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//chinh sua
         Scanner SC = new Scanner(System.in);
         TaiKhoanNganHang a = new TaiKhoanNganHang();
         int b;
