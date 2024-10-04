@@ -4,7 +4,10 @@ package Baithuchanhtuan6;
 // •	Tạo lớp SinhVien với các thuộc tính: mã sinh viên, tên, ngày sinh, điểm trung bình.
 // •	Viết các phương thức nhập thông tin, in thông tin.
 // •	Sắp xếp danh sách sinh viên theo điểm trung bình giảm dần..
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Comparator;
+
 
 public class SinhVien {
     public int msv;
@@ -34,9 +37,28 @@ public class SinhVien {
         System.out.println("Điểm trung bình "+dtb);
     }
     public static void main(String[] args) {
-        SinhVien a = new SinhVien();
-        a.Nhap();
-        a.In();
+        Scanner SC = new Scanner(System.in);
+        System.out.println("Nhập số lương sinh viên: ");
+        int n = SC.nextInt();
+        SinhVien[] SV = new SinhVien[n];
+        for (int i = 0; i < n; i++) {
+            System.out.println("Nhập thông tin sinh viên thứ " + (i + 1) + ":");
+            SV[i] = new SinhVien();
+            SV[i].Nhap();
+        }
+        Arrays.sort(SV, new Comparator<SinhVien>()
+        {
+            public int compare(SinhVien sv1, SinhVien sv2)
+            {
+                return Float.compare(sv2.dtb, sv1.dtb);
+            }
+        });
+        System.out.println("Danh sách sinh viên sau khi sắp xếp:");
+        for (SinhVien sv : SV) {
+            sv.In();
+            System.out.println("------------------------------");
+        }
+
     }
 }
 
