@@ -1,6 +1,8 @@
 package Baithuchanhtuan2;
 import java.util.Scanner;
-
+//2. Khai báo các biến với các kiểu dữ liệu khác nhau (int, double, char, boolean) 
+//để lưu trữ thông tin cá nhân của mình (tên, tuổi, chiều cao, có thích lập trình không). 
+//In ra màn hình các giá trị đã lưu.
 public class laisuatnganhang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);  // Tạo đối tượng Scanner duy nhất
