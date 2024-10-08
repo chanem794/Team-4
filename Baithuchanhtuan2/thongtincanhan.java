@@ -1,6 +1,6 @@
 package Baithuchanhtuan2;
 import java.util.Scanner;
-
+//3. Nhập vào hai số nguyên từ bàn phím. Tính tổng, hiệu, tích, thương và phần dư của hai số đó. In kết quả ra màn hình
 public class thongtincanhan {
     public static void main(String[] args) {
         System.out.println("Hãy nhập thông tin cá nhân của bạn: ");

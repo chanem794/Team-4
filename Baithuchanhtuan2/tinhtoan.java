@@ -1,6 +1,12 @@
 package Baithuchanhtuan2;
 import java.util.Scanner;
+//4. Tính toán lãi suất ngân hàng:
 
+//· Nhập vào số tiền gửi, lãi suất hàng năm và số tháng gửi.
+
+//· Tính số tiền lãi và số tiền gốc cuối kỳ.
+
+//· In kết quả ra màn hình.
 public class tinhtoan {
     public static void main(String[] args) {
         int tong, hieu, tich, du;
