@@ -26,6 +26,7 @@ public class test {
             System.out.println("3. Gửi tiền vào tài khoản");
             System.out.println("4. Rút tiền");
             System.out.println("5. Kết thúc");
+            System.out.println("=====================================");
             b = SC.nextInt();
             switch (b)
             {
@@ -34,19 +35,23 @@ public class test {
                     System.out.println("Tên người dùng: " + tenNguoiDung);
                     System.out.println("Số tài khoản: " + soTaiKhoan);
                     System.out.println("Số dư: " + a.getsodu());
+                    System.out.println("=====================================");
                     break;
                 case 2:
                     System.out.println("Số dư hiện tại: " + a.getsodu());
+                    System.out.println("=====================================");
                     break;
                 case 3:
                     System.out.print("Vui lòng nhập số tiền muốn gửi: ");
+                    System.out.println("=====================================");
                     kq = SC.nextLong();
                     a.guiTien(kq);
                     break;
                 case 4:
-                    System.out.print("Vui lòng nhập số tiền muốn rút: ");
+                    System.out.println("Vui lòng nhập số tiền muốn rút: ");
                     kq = SC.nextLong();
                     a.rutTien(kq);
+                    System.out.println("=====================================");
                     break;
                 case 5:
                     System.out.println("Đang kết thúc.....");

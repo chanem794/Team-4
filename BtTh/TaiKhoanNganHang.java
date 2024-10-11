@@ -78,6 +78,12 @@ public class TaiKhoanNganHang {
             System.out.println("Mật khẩu không đúng.");
         }
     }
-
-    
+    public void doiMatKhau(String matKhauMoi) {
+        if (matKhauMoi.equals(this.matKhau)) {
+            System.out.println("Mật khẩu mới không được trùng với mật khẩu cũ.");
+        } else {
+            this.matKhau = matKhauMoi;
+            System.out.println("Đổi mật khẩu thành công.");
+        }
+    }
 }
