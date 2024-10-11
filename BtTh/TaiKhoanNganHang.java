@@ -4,10 +4,9 @@ public class TaiKhoanNganHang {
     private int stk;
     private String chutk;
     private long sodu;
-    private 
+    private String matKhau;
     public Scanner SC;
-
-    public TaiKhoanNganHang(int stk, String chutk, long sodu) {
+    public TaiKhoanNganHang(int stk, String chutk, long sodu, String matKhau) {
         this.stk = stk;
         this.chutk = chutk;
         this.sodu = sodu;
