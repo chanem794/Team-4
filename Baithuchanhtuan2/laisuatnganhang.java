@@ -9,13 +9,13 @@ public class laisuatnganhang {
         double tong, lai;
 
         // Nhập thông tin từ người dùng
-        System.out.print("Vui lòng nhập số tiền cần gửi: ");
+        System.out.print("Vui long nhap so tien can gui: ");
         double tien = scanner.nextDouble();
 
-        System.out.print("Vui lòng nhập lãi suất (theo %): ");
+        System.out.print("Vui long nhap lai suat (theo %): ");
         double lsuat = scanner.nextDouble();
 
-        System.out.print("Vui lòng nhập số tháng cần gửi: ");
+        System.out.print("Vui long nhap thang: ");
         int thang = scanner.nextInt();
 
         // Tính toán tiền lãi và tổng tiền cuối kỳ
@@ -23,7 +23,7 @@ public class laisuatnganhang {
         tong = tien + lai;
 
         // In kết quả ra màn hình
-        System.out.printf("Tiền lãi sau %d tháng là: %.2f\n", thang, lai);
-        System.out.printf("Tổng tiền sau khi gửi %d tháng là: %.2f\n", thang, tong);
+        System.out.printf("Tien lai sau khi gửi %d thang la: %.2f\n", thang, lai);
+        System.out.printf("Tong tien sau khi gửi %d thang la: %.2f\n", thang, tong);
     }
 }
