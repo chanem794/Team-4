@@ -26,6 +26,7 @@ public class test {
             System.out.println("3. Gửi tiền vào tài khoản");
             System.out.println("4. Rút tiền");
             System.out.println("5. Kết thúc");
+            System.out.println("6. Đổi mật khẩu");
             System.out.println("=====================================");
             b = SC.nextInt();
             switch (b)
@@ -55,6 +56,9 @@ public class test {
                     break;
                 case 5:
                     System.out.println("Đang kết thúc.....");
+                    break;
+                case 6:
+                    a.doiMatKhau(matKhau);
                     break;
                 default:
                     System.out.println("Nhập không đúng! ");

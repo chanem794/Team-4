@@ -79,6 +79,8 @@ public class TaiKhoanNganHang {
         }
     }
     public void doiMatKhau(String matKhauMoi) {
+        System.out.println("Vui lòng nhập mật khẩu hiện tại:");
+        String matKhauNhap = SC.next();
         if (matKhauMoi.equals(this.matKhau)) {
             System.out.println("Mật khẩu mới không được trùng với mật khẩu cũ.");
         } else {
