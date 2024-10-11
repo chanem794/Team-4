@@ -7,10 +7,10 @@ package Baithuchanhtuan6.Bai2;
 import java.util.Scanner;
 
 public class SinhVien {
-    public int msv;
-    public String ten;
-    public int nsinh;
-    public float dtb;
+    public  int msv;
+    public  String ten;
+    public  int nsinh;
+    public  float dtb;
     public Scanner SC;
     public void Nhap ()
     {

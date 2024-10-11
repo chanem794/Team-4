@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner SC = new Scanner(System.in);
-        System.out.println("Nhập số lương sinh viên: ");
+        System.out.println("Nhap số lương sinh viên: ");
         int n = SC.nextInt();
 
         SinhVien [] SV = new SinhVien[n];
