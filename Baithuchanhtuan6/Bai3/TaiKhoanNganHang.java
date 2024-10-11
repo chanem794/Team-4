@@ -7,7 +7,7 @@ package Baithuchanhtuan6.Bai3;
 
 import java.util.Scanner;
 
-public class TaiKhoanNganHang {
+private class TaiKhoanNganHang {
     public int stk;
     public String chutk;
     private long sodu;
