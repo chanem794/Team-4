@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class Bai4 {
     public static void main(String[] args) {
-        System.out.printf("Nhập giá trị a, b, c cần kiểm tra: ");
+        System.out.printf("Vui long nhap 3 so a, b, c: ");
         int a = new Scanner(System.in).nextInt(); //khởi tạo và nhập 3 biến để kiểm tra
         int b = new Scanner(System.in).nextInt();
         int c = new Scanner(System.in).nextInt();
         if(a>b)//kiểm tra theo dạng câu lệnh if else
             if(b>c)
-                System.out.printf("Vậy số có giá trị nhỏ nhất là số %d", c);
+                System.out.printf("Vay so co gia tri nho nhat la so %d", c);
             else
-                System.out.printf("Vậy số có giá trị nhỏ nhất là số %d", b);
+                System.out.printf("Vay so co gia tri nho nhat la so %d", b);
         else
         if(a<c)
-            System.out.printf("Vậy số có giá trị nhỏ nhất là số %d", a);
+            System.out.printf("Vay so co gia tri nho nhat la so %d", a);
         else
-            System.out.printf("Vậy số có giá trị nhỏ nhất là số %d", c);
+            System.out.printf("Vay so co gia tri nho nhat la so %d", c);
     }
 }
 
