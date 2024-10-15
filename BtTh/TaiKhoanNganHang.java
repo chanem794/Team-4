@@ -1,7 +1,7 @@
 package BtTh;
 
 import java.util.Scanner;
-
+//thuong
 public class TaiKhoanNganHang {
     private int stk;
     private String chutk;
